@@ -1,0 +1,70 @@
+body{
+  margin: 10px;
+  background-color: #DEE1DD;
+  color: #28363D;
+}
+.topNav{
+  text-align: right;
+  right: 5px;
+  margin: auto;
+  padding: 5px;
+  border-bottom: 1px solid #6D9197;
+  justify-content: right;
+}
+
+.topNavElem{
+  padding: 5px;
+}
+
+.intro{
+  text-align: center;
+}
+
+.intro p{
+  margin: 0 30% 0;
+}
+
+.imageRow {
+  background-color: #2F575D;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 0 15% 0;
+  display: flex;
+  padding: 4px;
+}
+
+.imageCol {
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 6px;
+  vertical-align: middle;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+h4{
+  text-align: center;
+}
+.coursesContainer{
+  margin-left: 5%;
+  display: flex;
+}
+
+.courses {
+  margin: 30px;
+  padding: 6px;
+  flex: 1;
+}
+
+#headshot{
+  padding-top: 5px;
+  width: 10%;
+  height: auto;
+  border-radius: 50%;
+}
